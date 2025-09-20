@@ -9,6 +9,10 @@
 
 **The Purpose of the Project**: 
 
+- To understand customer behavior
+- To analyze the performance of products
+- To identify data quality issues
+- To discover business insights
 
 **Tools** - 
 **Python**:
