@@ -182,3 +182,11 @@ Zachary Abbott and Shelby Perry are the highest-spending customers. Such informa
 
 
 <img width="859" height="588" alt="Ekran görüntüsü 2025-09-21 010048" src="https://github.com/user-attachments/assets/d6c72f88-70bc-464f-b648-f17264fc1958" />
+
+
+
+
+
+
+
+Continued...
