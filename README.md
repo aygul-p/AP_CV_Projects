@@ -20,7 +20,7 @@
 **Tools** - 
 
 
-**Python** : 
+- **Python** : 
 - Pandas
 - Matplotlib
 - Seaborn
