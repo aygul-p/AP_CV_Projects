@@ -1,4 +1,4 @@
-**Project**: Retail Customer Transaction Data
+**Project**: Retail Customer & Transaction Data
 
 
 **Source**: https://www.kaggle.com/datasets/sahilprajapati143/retail-analysis-large-dataset
@@ -20,7 +20,7 @@
 **Tools** - 
 
 
-- **Python** : 
+- **Python**: 
 - Pandas
 - Matplotlib
 - Seaborn
