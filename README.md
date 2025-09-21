@@ -18,11 +18,13 @@
 - To discover business insights
 
 **Tools** - 
+
+
 **Python** : 
 - Pandas
 - Matplotlib
 - Seaborn
-- **MySQL** : 
+- **MySQL**  
 - **Power BI**
 
 
