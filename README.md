@@ -130,7 +130,7 @@ Zachary Abbott and Shelby Perry are the highest-spending customers. This informa
 
 
 
-Grocery recorded the highest total count in the Product_Category, with 150 entries, while 'Not Provided' had the lowest count at just 2. In the Home Decor category, male customers accounted for 13.45% of the total product count. Additionally, Grocery also had the highest average count per Product_Category at 75, whereas 'Not Provided' had the lowest average at 1.
+The Grocery category recorded the highest total count among all Product_Categories, with 150 entries, while the 'Not Provided' category had the lowest, with only 2 entries. Within the Home Decor category, male customers represented 13.45% of the total product count. Grocery also reported the highest average count per Product_Category at 75, in contrast to 'Not Provided', which had the lowest average of just 1. In the Clothing category, high-income customers contributed to 10.01% of the total Product_Brand count. Furthermore, Grocery again led in average count per Product_Brand, with an average of 50, while 'Not Provided' remained the lowest at 1.
 
 
 
@@ -141,10 +141,6 @@ Grocery recorded the highest total count in the Product_Category, with 150 entri
 
 <img width="1303" height="629" alt="Ekran görüntüsü 2025-09-17 213409" src="https://github.com/user-attachments/assets/d415643d-8cc1-4909-958c-6b30e212e694" />
 
-
-
-
-Grocery had the highest total count of Product_Brand, with 150 entries, while 'Not Provided' had the lowest, with just 2. Customers with a high income level in the Clothing category accounted for 10.01% of the total Product_Brand count. Additionally, Grocery also recorded the highest average count per Product_Brand at 50, whereas 'Not Provided' had the lowest average at 1.
 
 
 
