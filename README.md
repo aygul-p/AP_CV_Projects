@@ -6,20 +6,23 @@
 
 **Size**: 302,000 rows x 30 columns
 
+#Note: A certain part of the dataset has been used.
+
+
 
 **The Purpose of the Project**: 
 
-- To understand customer behavior
+- To explore data for further operations
 - To analyze the performance of products
-- To identify data quality issues
+- To identify what product and product brand are in high demand 
 - To discover business insights
 
 **Tools** - 
-**Python**:
+**Python** : 
 - Pandas
 - Matplotlib
 - Seaborn
-- **MySQL**
+- **MySQL** : 
 - **Power BI**
 
 
@@ -196,4 +199,4 @@ The Grocery category recorded the highest total count among all Product_Categori
 
 
 
-Continued...
+
