@@ -45,15 +45,34 @@
 
 
 - Missing values in track_name and album_name are replaced with 'Unknown Track' and 'Unknown Album'
+
+
+
+
+
   
 
   <img width="684" height="361" alt="image" src="https://github.com/user-attachments/assets/aab39d8c-e601-4989-b1e7-edb49c37b295" />
 
 
+
+
+
+
+
 - Outliers in popularity (1806) and stream_count (14160) are detected but for this kind of dataset, outliers are important to extract precise information. Therefore, they remained unchanged.
-  
+
+
+
+
+
+
 
   <img width="668" height="303" alt="image" src="https://github.com/user-attachments/assets/7cc21168-f369-4d61-a85f-cb704f567e2d" />
+
+
+
+
 
 
   <img width="659" height="278" alt="image" src="https://github.com/user-attachments/assets/586c5e53-42f0-401c-a467-77f2c9db4329" />
@@ -62,7 +81,18 @@
 
 
 
+
+
+
 The duplicates were removed:
+
+
+
+
+
+
+
+
 
 
   <img width="310" height="209" alt="image" src="https://github.com/user-attachments/assets/fe65aa0d-2950-4535-9e9c-b41118df4e2d" />
@@ -71,7 +101,20 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
 **Statistics:**
+
+
+
+
+
+
+
 
 
 - The model explains virtually none of the variation in tempo (R² ≈ 0), indicating that genre and year have negligible explanatory power over tempo at the track level.
@@ -85,13 +128,30 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
 <img width="702" height="574" alt="image" src="https://github.com/user-attachments/assets/2a3cf7bb-5654-4757-b521-6f1814f3ebe3" />
 
 
 
 
 
+
+
+
+
+
 **MySQL**: 
+
+
+
+
+
+
+
 
 
 1. **Danceability:** Spotify’s mainstream music has maintained a consistent rhythmic accessibility and danceability seems to be a mature, optimized trait rather than evolving, which suggests listeners’ preference for “movable” music hasn’t changed much in a decade.
@@ -104,13 +164,29 @@ The duplicates were removed:
 
 **Key results:** 
 
+
+
+
+
 - Spotify’s popular music ecosystem is highly optimized and stable
 - Algorithms reward familiarity over experimentation
 - Radical sonic shifts exist at genre level, not aggregate level
 - Artists adapt to platform incentives subconsciously or strategically
 
 
+
+
+
+
+
+
+
 <img width="685" height="587" alt="image" src="https://github.com/user-attachments/assets/f8438fa1-86b9-4920-a038-d2a19958e55c" />
+
+
+
+
+
 
 
 
@@ -123,7 +199,20 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
 <img width="418" height="560" alt="image" src="https://github.com/user-attachments/assets/acb0fa39-dcf9-46ba-9af6-48cae691453e" />
+
+
+
+
+
+
+
 
 
 
@@ -136,7 +225,20 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
 <img width="601" height="625" alt="image" src="https://github.com/user-attachments/assets/bb2042cf-5c0e-4d15-bd58-c1123d7cce24" />
+
+
+
+
+
+
 
 
 
@@ -149,12 +251,37 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
 <img width="488" height="623" alt="image" src="https://github.com/user-attachments/assets/5041b6e8-99df-4b3f-9d98-2fc3145484d2" />
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 **Python:**
+
+
+
+
+
+
+
+
+
 
 
 1. - Average track popularity remains remarkably stable over time, fluctuating within a very narrow range.
@@ -166,7 +293,23 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
 <img width="781" height="487" alt="image" src="https://github.com/user-attachments/assets/fcaca7f8-da69-421f-add0-9e21fffb789d" />
+
+
+
+
+
+
+
 
 
 
@@ -180,7 +323,25 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
   <img width="660" height="536" alt="image" src="https://github.com/user-attachments/assets/5744d8d0-9504-4c42-810d-834be6379a08" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -194,7 +355,23 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
   <img width="648" height="563" alt="image" src="https://github.com/user-attachments/assets/a603b2a8-d99e-4167-a779-90d6bd77a3b8" />
+
+
+
+
+
+
+
 
 
 
@@ -208,7 +385,26 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
 <img width="648" height="555" alt="image" src="https://github.com/user-attachments/assets/d9c0e2b7-2617-47a6-9846-cc12be1ae7a8" />
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,7 +419,25 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
   <img width="1727" height="580" alt="image" src="https://github.com/user-attachments/assets/48de4383-1a3b-4471-9c7d-582c37c0a704" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -240,12 +454,37 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
    <img width="591" height="497" alt="image" src="https://github.com/user-attachments/assets/baf5a116-95ef-4915-b00d-bb62dc752d5d" />
 
 
 
 
+
+
+
+
+
+
+
+
 **Power BI**: 
+
+
+
+
+
+
+
+
+
+
 
 
 1. - The top-streamed tracks accumulate disproportionately high stream counts, reinforcing the winner-takes-most dynamics observed in the stream count distribution.
@@ -258,7 +497,25 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
    <img width="1103" height="497" alt="image" src="https://github.com/user-attachments/assets/4c42ffa9-4cf3-41a6-83c9-628f46499e14" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -272,7 +529,25 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
+
   <img width="932" height="489" alt="image" src="https://github.com/user-attachments/assets/094c0133-2eaf-4504-aeb9-ee18aca758ae" />
+
+
+
+
+
+
+
+
 
 
 
@@ -285,8 +560,26 @@ The duplicates were removed:
      - Overall, genres differ more in label and cultural identity than in measurable audio features, reinforcing the idea of a homogenized Spotify-era soundscape.
   
 
+
+
+
+
+
+
+
+
+
+
   
   <img width="905" height="524" alt="image" src="https://github.com/user-attachments/assets/55009850-ae99-4272-8132-332b0f44a499" />
+
+
+
+
+
+
+
+
 
 
 
@@ -302,7 +595,26 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
+
   <img width="1222" height="629" alt="image" src="https://github.com/user-attachments/assets/9a767ff0-0573-42f4-93a3-a7489f38b23e" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -317,13 +629,38 @@ The duplicates were removed:
 
 
 
+
+
+
+
+
+
+
+
+
+
 <img width="1032" height="602" alt="image" src="https://github.com/user-attachments/assets/5e3d966d-6751-4cef-8651-841ff5ddc650" />
 
 
 
 
 
+
+
+
+
+
+
+
+
+
 **Final Key Results:**
+
+
+
+
+
+
 
 
 
