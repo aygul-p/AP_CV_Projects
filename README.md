@@ -155,7 +155,7 @@ The duplicates were removed:
 
 
 
-1. **Danceability:** Spotify’s mainstream music has maintained a consistent rhythmic accessibility and danceability seems to be a mature, optimized trait rather than evolving, which suggests listeners’ preference for “movable” music hasn’t changed much in a decade.
+**Danceability:** Spotify’s mainstream music has maintained a consistent rhythmic accessibility and danceability seems to be a mature, optimized trait rather than evolving, which suggests listeners’ preference for “movable” music hasn’t changed much in a decade.
 
 **Energy:** Despite genre cycles among EDM, trap, pop, and hyperpop average perceived energy remains constant. Genre diversity cancels out extremes at scale, indicating that Spotify popularity favors balance, not extremes. 
 
