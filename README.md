@@ -155,13 +155,13 @@ The duplicates were removed:
 
 
 
-**Danceability:** Spotify’s mainstream music has maintained a consistent rhythmic accessibility and danceability seems to be a mature, optimized trait rather than evolving, which suggests listeners’ preference for “movable” music hasn’t changed much in a decade.
+1. **Danceability:** Spotify’s mainstream music has maintained a consistent rhythmic accessibility and danceability seems to be a mature, optimized trait rather than evolving, which suggests listeners’ preference for “movable” music hasn’t changed much in a decade.
 
 **Energy:** Despite genre cycles among EDM, trap, pop, and hyperpop average perceived energy remains constant. Genre diversity cancels out extremes at scale, indicating that Spotify popularity favors balance, not extremes. 
 
 **Loudness:** Streaming normalization is doing its job. Producers optimize for streaming rather than raw loudness, so this is strong evidence of platform-driven production behavior.
 
-**Tempo:** Minimal variance across a decade. About 130 BPM aligns with pop, dance, workout / driving playlists. This tempo range maximizes engagement, movement, and playlist compatibility. In short, Spotify’s ecosystem implicitly favors mid-high tempo music. 
+**Tempo:** Minimal variance across a decade is observed. About 130 BPM aligns with pop, dance, workout / driving playlists. This tempo range maximizes engagement, movement, and playlist compatibility. In short, Spotify’s ecosystem implicitly favors mid-high tempo music. 
 
 **Key results:** 
 
@@ -445,7 +445,7 @@ The duplicates were removed:
 
 6. - The distribution of stream counts is highly right-skewed, even on a log scale, indicating extreme inequality in listening volume.
    - The vast majority of tracks accumulate relatively low stream counts, while a very small fraction achieve massively high streams.
-   - This long-tail pattern is characteristic of a winner-takes-most (power-law–like) distribution common in digital platforms.
+   - This long-tail pattern is characteristic of a winner-takes-most distribution common in digital platforms.
    - The presence of a long right tail suggests that viral hits and playlist amplification drive disproportionate attention to a small subset of tracks.
    - Average or median stream counts therefore do not represent a “typical” track, making aggregation potentially misleading.
    - These results reinforce earlier findings that popularity and streams are driven more by exposure mechanisms than by audio features.
@@ -671,7 +671,6 @@ The duplicates were removed:
 - Average popularity remains stable over time, with no persistent temporal trends.
 - Stream counts follow a highly skewed, long-tail distribution, with attention concentrated on a small fraction of tracks.
 - Clustering on basic audio features produces overlapping groups, indicating a continuous feature space.
-- Genre labels, artist identifiers, and track names do not meaningfully explain success.
 - This EDA shows that modern Spotify music is highly standardized in its audio characteristics, while popularity and streaming success are dominated by platform-driven exposure rather than measurable musical features.
 - Overall, results suggest that platform exposure and algorithmic mechanisms, rather than audio characteristics, primarily drive popularity and streaming outcomes.
 
