@@ -373,11 +373,28 @@ The duplicates were removed:
 
 
 
+4. - The pairwise scatter plots show dense, uniform clouds with no visible linear or nonlinear relationships between audio features and popularity.
+   - Danceability, energy, instrumentalness, and loudness appear largely independent, with minimal interaction patterns.
+   - Popularity exhibits high variance across the full range of each audio feature, indicating that both low and high feature values can correspond to any popularity level.
+   - The diagonal distributions confirm feature normalization and bounded ranges, consistent with Spotify’s standardized audio feature extraction.
+   - Loudness shows a concentrated distribution, reflecting streaming-era mastering normalization, while popularity follows a roughly bell-shaped distribution due to platform scaling.
+   - The absence of clear slopes or clusters reinforces earlier findings that basic audio features do not drive popularity in isolation.
+   - Overall, this visualization supports the conclusion that Spotify success emerges from exposure dynamics rather than intrinsic audio characteristics, consistent with winner-takes-most behavior.
 
 
 
 
-4. - The three clusters show heavy overlap in the energy–danceability space, with no clearly separable boundaries.
+
+
+
+  <img width="1230" height="1231" alt="image" src="https://github.com/user-attachments/assets/55227196-ba81-4cd3-8e7b-d79f70af3b10" />
+
+
+
+
+
+
+5. - The three clusters show heavy overlap in the energy–danceability space, with no clearly separable boundaries.
    - This indicates that tracks do not naturally segment into distinct groups based on these audio features alone.
    - The clusters primarily reflect density partitioning rather than meaningful behavioral or stylistic groupings.
    - The lack of separation suggests that energy and danceability are smoothly distributed, not clustered into discrete musical types.
@@ -410,7 +427,7 @@ The duplicates were removed:
 
 
 
-5. - Tracks from all genres are densely intermingled across the danceability–energy space, with no clear genre-specific separation.
+6. - Tracks from all genres are densely intermingled across the danceability–energy space, with no clear genre-specific separation.
    - Bubble sizes (popularity) are evenly distributed, showing that highly popular tracks appear across a wide range of danceability and energy levels.
    - No visible pattern suggests that higher energy or higher danceability systematically leads to higher popularity.
    - Genre coloring reveals substantial overlap, indicating that genres share similar core audio profiles in the Spotify era.
@@ -443,7 +460,7 @@ The duplicates were removed:
 
 
 
-6. - The distribution of stream counts is highly right-skewed, even on a log scale, indicating extreme inequality in listening volume.
+7. - The distribution of stream counts is highly right-skewed, even on a log scale, indicating extreme inequality in listening volume.
    - The vast majority of tracks accumulate relatively low stream counts, while a very small fraction achieve massively high streams.
    - This long-tail pattern is characteristic of a winner-takes-most distribution common in digital platforms.
    - The presence of a long right tail suggests that viral hits and playlist amplification drive disproportionate attention to a small subset of tracks.
@@ -463,6 +480,34 @@ The duplicates were removed:
 
 
    <img width="591" height="497" alt="image" src="https://github.com/user-attachments/assets/baf5a116-95ef-4915-b00d-bb62dc752d5d" />
+
+
+
+
+
+
+
+
+
+
+
+   8. - Average tempo remains remarkably stable from 2015 to 2025, fluctuating within a very narrow range (~129–131 BPM).
+      - Year-to-year variations are minor and non-directional, with no sustained upward or downward trend.
+      - The temporary dip around 2020 appears short-lived and does not indicate a structural shift in musical tempo.
+      - This stability suggests that tempo has reached an engagement-optimized equilibrium in the Spotify ecosystem.
+      - The results reinforce earlier findings that tempo differentiates genres descriptively, but shows little temporal evolution at the aggregate level.
+      - Overall, the plot supports the conclusion that Spotify-era music prioritizes rhythmic consistency over innovation, aligning with platform-driven standardization.
+
+
+
+
+
+
+
+
+
+     <img width="680" height="533" alt="image" src="https://github.com/user-attachments/assets/a54fedfa-8d8c-4e4f-9b62-00d912f5e026" />
+
 
 
 
